@@ -1,0 +1,27 @@
+#header_div {
+    background-color: rgba(27, 160, 67, 0.712);
+    padding-top: 20;
+    padding-bottom: 12;
+
+
+}
+
+body{
+    background-color: rgb(141, 248, 141);
+    font-family: 'Festive', cursive;
+}
+
+
+#header_div p{
+  font-family: sans-serif;  
+  letter-spacing: 2.5px ;
+ font-weight:bold ;
+ font-size: medium;
+}
+
+#STARTbtn{
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 20px;
+}
