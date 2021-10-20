@@ -9,5 +9,10 @@ function StartClassification()
 
     function modelReady()
     {
-        console.log("Model Loaded!")
+        classifier.classify(gotResults);
+    }
+
+    function gotResults(error, results)
+    {
+        console.log('Got Results')
     }
